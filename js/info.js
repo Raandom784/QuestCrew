@@ -164,6 +164,7 @@ function getCarouselImageItem(string){
 	img.src = string;
 	img.classList.add("d-block");
 	img.classList.add("w-100");
+	img.setAttribute("alt", "carousel slide");
 	div.appendChild(img);
 	return div;
 }
