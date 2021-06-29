@@ -1,0 +1,180 @@
+@font-face {
+	font-family: 'Poppins_Medium';
+	src: url('../fonts/Poppins-Medium.ttf')
+}
+@font-face {
+	font-family: 'Poppins_Light';
+	src: url('../fonts/Poppins-Light.ttf')
+}
+@font-face {
+	font-family: 'Poppins_Bold';
+	src: url('../fonts/Poppins-Bold.ttf')
+}
+
+body{
+	font-family: Poppins_Medium, sans-serif;
+	scroll-behavior: smooth;
+}
+
+p, h1, h2, h3, h4, h5{
+	text-align: justify;
+	color: #3d3d3d;
+}
+
+.hide{
+	display: none;
+}
+
+.navback{
+	padding: 0px;
+	font-size: 1.4em;
+	background-color: #b6d0e2;
+	transition: all 0.6s ease;
+}
+
+.navback-scrolled{
+	box-shadow: 0 20px 50px 0 rgb(0 0 0 / 5%);
+	background-color: #fff;
+}
+
+.logo{
+	line-height: 60px;
+}
+
+.logo img{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+}
+
+.padded{
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+
+#home{
+	background-color: #b6d0e2;
+}
+
+#home .padded{
+	padding-bottom: 0px;
+}
+
+#about{
+	background-color: #f4f7fa;
+}
+
+.center{
+	display: block;
+	margin: 0 auto;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.carousel-item img {
+	height: 40vh;
+	width: 40vw;
+	object-fit: contain;
+	object-position: center;
+}
+
+.fix-width {
+	max-width: 70vw;
+	object-fit: contain;
+	object-position: center;
+}
+
+.table tr td{
+	min-width: 100px;
+}
+
+#footer{
+	background-color: #b6d0e2;
+	padding-top: 100px;
+	padding-bottom: 20px;
+}
+
+.social{
+	cursor: pointer;
+	text-decoration: none;
+	color: rgba(0,0,0,.55);
+	transition: 0.6s ease;
+}
+
+a.social:hover {
+	transform: scale(1.1);
+}
+
+.icon{
+	font-size: 1.6em;
+	margin: 5px;
+}
+
+.flex-center{
+	justify-content: center;
+}
+
+[data-inviewport = "fade-in"] { 
+	transition: 1s ease;
+	opacity: 0.1;
+}
+
+[data-inviewport = "fade-in"].is-inViewport { 
+	opacity: 1;
+}
+
+@keyframes growandappear {
+	from {opacity: 0; transform: scale(0.7);}
+	to {opacity: 1; transform: scale(1.0);}
+}
+
+.cards{
+	animation: growandappear 0.4s ease;
+}
+
+#pay{
+	background-color: #3d3d3d;
+}
+
+.qr{
+	width: 350px;
+	padding: 50px;
+	background-color: #fff;
+	border-radius: 10px;
+	position: relative;
+
+}
+
+.qr div{
+	margin-bottom: 10px;
+}
+
+.qr-img{
+	width: 250px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.qr::after{
+	content: " ";
+	border-radius: 50%;
+	height: 20px;
+	width: 20px;
+	background-color: #3d3d3d;
+	position: absolute;
+	top: 70px;
+	left: -10px;
+}
+
+.qr::before{
+	content: " ";
+	border-radius: 50%;
+	height: 20px;
+	width: 20px;
+	background-color: #3d3d3d;
+	position: absolute;
+	top: 70px;
+	right: -10px;
+}
