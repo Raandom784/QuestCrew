@@ -118,11 +118,20 @@ a.social:hover {
 
 [data-inviewport = "fade-in"] { 
 	transition: 1s ease;
-	opacity: 0.1;
+	opacity: 0;
 }
 
 [data-inviewport = "fade-in"].is-inViewport { 
 	opacity: 1;
+}
+
+img{
+	transition: 2s;
+	opacity: 0.1;
+}
+
+.fade-in{
+	opacity:  1;
 }
 
 @keyframes growandappear {

@@ -1,3 +1,17 @@
+images = document.querySelectorAll('img');
+images.forEach(image => {
+	src = image.getAttribute('data-src');
+	if(src)
+		load(src, image);
+	image.classList.add('fade-in');
+});
+function load(src, elem){
+	img = new Image();
+	img.src = src;
+	img.onload = () => {
+		elem.src = src;
+	}  
+}
 const inViewport = (entries, observer) => {
 	entries.forEach(entry => {
 		entry.target.classList.toggle("is-inViewport", entry.isIntersecting);
