@@ -27,8 +27,7 @@ p, h1, h2, h3, h4, h5{
 
 .navback{
 	padding: 0px;
-	font-size: 1.4em;
-	background-color: #b6d0e2;
+	background-color: #f4f7fa;
 	transition: all 0.6s ease;
 }
 
@@ -53,7 +52,7 @@ p, h1, h2, h3, h4, h5{
 }
 
 #home{
-	background-color: #b6d0e2;
+	background-color: #f4f7fa;
 }
 
 #home .padded{
@@ -90,8 +89,13 @@ p, h1, h2, h3, h4, h5{
 	min-width: 100px;
 }
 
+a.btn{
+	text-decoration: none;
+	color: #fcfcfc;
+}
+
 #footer{
-	background-color: #b6d0e2;
+	background-color: #f4f7fa;
 	padding-top: 100px;
 	padding-bottom: 20px;
 }

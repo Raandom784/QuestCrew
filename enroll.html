@@ -10,14 +10,31 @@
 
 		<!-- Custom CSS -->
 		<link rel="stylesheet" type="text/css" href="./css/index.css">
-		<link rel="stylesheet" type="text/css" href="./css/exam.css">
+		<link rel="stylesheet" type="text/css" href="./css/contact.css">
+		<style type="text/css">
+			#enroll{
+				max-height: 100vh;
+				height: 80vh;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				background-image: url('./images/contact_bg.svg');
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: contain;
+			}
+
+			a.btn{
+				width: 150px;
+			}
+		</style>
 
 		<!-- Material Icons -->
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 		<!-- Dev Icons -->
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css">
-		<title>QuestCrew | Exam Info</title>
+		<title>QuestCrew | Enroll</title>
 	</head>
 	<body>
 		<!-- navbar -->
@@ -32,8 +49,8 @@
 				<div class="collapse navbar-collapse" id="navbar">
 					<div class="navbar-nav ms-auto">
 						<a class="nav-link" id="home-nav" aria-current="page" href="./index.html">Home</a>
-						<a class="nav-link" id="offer-nav" href="./index.html#offer">Our Offerings</a>
-						<a class="nav-link active" href="#">Exam Info</a>
+						<a class="nav-link active" id="offer-nav" href="./index.html#offer">Our Offerings</a>
+						<a class="nav-link" href="./exam.html">Exam Info</a>
 						<a class="nav-link" id="about-nav" href="./index.html#about">About Us</a>
 						<a class="nav-link" href="./faq.html">FAQ</a>
 						<a class="nav-link" href="./contact.html">Contact Us</a>
@@ -41,29 +58,18 @@
 				</div>
 			</div>
 		</nav>
-		
-		<!-- Exam Info Section -->
-		<section id="exam" data-inviewport="fade-in">
-			<div class="container landing padded">
-				<div class="row">
-					<a class="cards col-lg-3 col-md-4" href="./mba.html">
-						<img src="./images/load.svg" data-src="./images/mba.webp" alt="mba">
-						<h4 class="text-center">MBA</h4>
-					</a>
-					<a class="cards col-lg-3 col-md-4" href="./info.html?type=banking">
-						<img src="./images/load.svg" data-src="./images/banking.jpg" alt="banking">
-						<h4 class="text-center">Banking</h4>
-					</a>
-				</div>
-				<div class="row">
-					<a class="cards col-lg-3 col-md-4" href="./info.html?type=ipm">
-						<img src="./images/load.svg" data-src="./images/ipm.jpg" alt="ipm">
-						<h4 class="text-center">IPM</h4>
-					</a>
-					<a class="cards col-lg-3 col-md-4" href="./info.html?type=interview">
-						<img src="./images/load.svg" data-src="./images/walk_in_interview.jpeg" alt="interview">
-						<h4 class="text-center">Walk-in Interview</h4>
-					</a>
+
+		<!-- Contact Section -->
+		<section id="enroll" data-inviewport="fade-in">
+			<div class="container">
+				<div class="row flex-center">
+					<div class="col-lg-8 col-md-8 col-sm-12">
+						<h2 class="text-center">Enroll</h2>
+						<p class="text-center">Fill the form below to enroll yourself <br>to one of our courses.</p>
+						<div><a class="btn btn-secondary center" href="https://docs.google.com/forms/d/1PAHIX9x2jB06C9sfPGAqJgoBXFiF84XTyuIhZP4OyoQ/viewform?edit_requested=true" target="_blank">Click Here</a></div>
+						<br>
+						<p class="text-center">Incase of queries <br>write to us at <a href="mailto:someone@yoursite.com"><b>blah@blah.com</b></a></p>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -86,7 +92,7 @@
 					<div class="col-md-4">
 						<p><a href="./faq.html"><b>Frequently asked Questions</b></a></p>
 						<p><a href="./index.html#about"><b>About Us</b></a></p>
-						<p>Have a question in mind: <br>email us at <a href="mailto:someone@yoursite.com"><b>blah@blah.com</b></a> <br>(or)<br>call us at <a href="tel:+91999999999"><b>+91 9999999999</b></a></p>
+						<p>Have a question in mind: <br>email us at <a href="mailto:someone@yoursite.com"><b>blah@blah.com</b></a> <br>(or)<br>call us at <a href="tel:+919704318136"><b>+91 9999999999</b></a></p>
 					</div>
 					<div class="col-md-4">
 						<p><b>Categories</b></p>
