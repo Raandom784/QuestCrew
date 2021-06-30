@@ -27,8 +27,9 @@ p, h1, h2, h3, h4, h5{
 
 .navback{
 	padding: 0px;
-	background-color: #f4f7fa;
+	background-color: #f2f2f2;
 	transition: all 0.6s ease;
+	font-size: 1.2em;
 }
 
 .navback-scrolled{
@@ -52,7 +53,7 @@ p, h1, h2, h3, h4, h5{
 }
 
 #home{
-	background-color: #f4f7fa;
+	background-color: #f2f2f2;
 }
 
 #home .padded{
@@ -60,7 +61,7 @@ p, h1, h2, h3, h4, h5{
 }
 
 #about{
-	background-color: #f4f7fa;
+	background-color: #f2f2f2;
 }
 
 .center{
@@ -95,7 +96,7 @@ a.btn{
 }
 
 #footer{
-	background-color: #f4f7fa;
+	background-color: #e6e6e6;
 	padding-top: 100px;
 	padding-bottom: 20px;
 }

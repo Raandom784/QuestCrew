@@ -10,22 +10,48 @@
 
 		<!-- Custom CSS -->
 		<link rel="stylesheet" type="text/css" href="./css/index.css">
-		<link rel="stylesheet" type="text/css" href="./css/contact.css">
+		<link rel="stylesheet" type="text/css" href="./css/exam.css">
 		<style type="text/css">
 			#enroll{
+				background-color: #f2f2f2;
 				max-height: 100vh;
-				height: 80vh;
+				height: 95vh;
 				display: flex;
 				flex-direction: column;
 				justify-content: center;
-				background-image: url('./images/contact_bg.svg');
-				background-repeat: no-repeat;
-				background-position: center;
-				background-size: contain;
+			}
+
+			.cards h4{
+				padding: 10px;
+				margin-bottom: 0px;
 			}
 
 			a.btn{
 				width: 150px;
+			}
+
+			.pay img{
+				height: 80px;
+				width: auto;
+			}
+
+			.cards div{
+				height: 90px;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+			}
+
+			.cards img{
+				padding: 0px;
+			}
+
+			.cards{
+				margin: 0 auto;
+				padding-bottom: 10px;
+				padding-top: 10px;
+				margin-bottom: 20px;
+
 			}
 		</style>
 
@@ -62,15 +88,21 @@
 		<!-- Contact Section -->
 		<section id="enroll" data-inviewport="fade-in">
 			<div class="container">
-				<div class="row flex-center">
-					<div class="col-lg-8 col-md-8 col-sm-12">
-						<h2 class="text-center">Enroll</h2>
-						<p class="text-center">Fill the form below to enroll yourself <br>to one of our courses.</p>
-						<div><a class="btn btn-secondary center" href="https://docs.google.com/forms/d/1PAHIX9x2jB06C9sfPGAqJgoBXFiF84XTyuIhZP4OyoQ/viewform?edit_requested=true" target="_blank">Click Here</a></div>
-						<br>
-						<p class="text-center">Incase of queries <br>write to us at <a href="mailto:someone@yoursite.com"><b>blah@blah.com</b></a></p>
+					<h2 class="text-center">Enroll in 2 simple steps</h2>
+					<br>
+					<div class="cards col-lg-5 col-md-5">
+						<h4 class="text-center">First, Pay</h4>
+						<p class="text-center">pay via one of the available options below</p>
+						<p class="text-center pay"><img src="./images/phonepe.svg"><span>8967812863@ybl</span><br><img src="./images/gpay.svg"><span>shamayitasaha@oksbi</span></p>
 					</div>
-				</div>
+					<div class="cards col-lg-5 col-md-5">
+						<h4 class="text-center">Next, Enroll</h4>
+						<p class="text-center">Enroll by filling the enrollment form clicking below.</p>
+						<div><a class="btn btn-secondary center" href="https://docs.google.com/forms/d/1_kRGMsxDe9tRV3z63hIhnXh05utFJ0wimwNpjDo6BK0/" target="_blank">Click Here</a></div>
+						<p class="text-center">do not forget to attach the screenshot of payment</p>
+						<p class="text-center">Incase of queries write to us at <a href="mailto:someone@yoursite.com"><b>blah@blah.com</b></a></p>
+					</div>
+				
 			</div>
 		</section>
 
