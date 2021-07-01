@@ -67,8 +67,8 @@ const files = {
 		than the whole component of CAT exam! Thus, make the right call about your personalized interview session. 
 		You can directly get detailed information about all the prestigious B-schools here.`,
 		"images": ["./images/cat_slide_1.jpg", "./images/cat_slide_2.jpg", "./images/cat_slide_3.jpg", 
-		"./images/cat_slide_4.jpg", "./images/cat_slide_5.jpg", "./images/cat_slide_6.png", "./images/cat_slide_7.png", 
-		"./images/cat_slide_8.png", "./images/cat_slide_9.png", "./images/cat_slide_10.png", "./images/cat_slide_11.png" ],
+		"./images/cat_slide_4.jpg", "./images/cat_slide_5.jpg", "./images/cat_slide_6.png", "./images/cat_slide_7.jpg", 
+		"./images/cat_slide_8.png" ],
 		"links" : {
 			"Old IIMs": {
 				"IIM Ahmedabad": "https://www.iima.ac.in/", 
@@ -105,7 +105,7 @@ const files = {
 		of the country. It is the one of the most widely attempted MBA entrance exam after CAT with more than 75000 
 		students appearing for XAT each year. More than 150 B schools offer MBA admission under XAT. Most notable ones 
 		are - <br>XLRI Jamshedpur, SPJIMR, XIM Bhubaneswar, IMT Ghaziabad, Goa Institute of Management`,
-		"images": ["./images/xat_slide_1.jpg", "./images/xat_slide_2.jpg", "./images/xat_slide_3.jpg"],
+		"images": ["./images/xat_slide_1.jpg", "./images/xat_slide_2.jpg", "./images/xat_slide_3.jpeg", "./images/xat_slide_4.jpg", "./images/xat_slide_5.jpg"],
 		"links" : {
 			"Important Links": {
 				"XLRI Jamshedpur": "https://www.xlri.ac.in/",

@@ -23,6 +23,18 @@
 				padding-top: 20px;
 				padding-left: 20px;
 			}
+			.holder{
+				position: relative;
+			}
+
+			.link-bar{
+				position: absolute;
+				top: 0px;
+				left: 0px;
+				z-index: 1000;
+				background-color: #f2f2f2;
+				padding: 10px;
+			}
 		</style>
 	</head>
 	<body>
@@ -50,13 +62,11 @@
 
 		<!-- Info Section -->
 		<section id="info" data-inviewport="fade-in">
-			<div class="container-fluid">
-				<a href="./exam.html">Exam Info</a> > <span id="mba-nav"></span> <a href="#" id="info-nav"></a>
-			</div>
-			<div class="container padded" id="main" data-inviewport="fade-in">
-				<h2 id="type"></h2>
-				<p id="head"></p>
-				<div id="infoCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel" style="padding-top: 20px;">
+			<div class="holder">
+				<div class="link-bar"> 
+					<a href="./exam.html">Exam Info</a> > <span id="mba-nav"></span> <a href="#" id="info-nav"></a>
+				</div>
+				<div id="infoCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
 					<div class="carousel-indicators" id="carousel-ind">
 					</div>
 					<div class="carousel-inner" id="carousel-imgs">
@@ -69,6 +79,12 @@
 						<span class="carousel-control-next-icon" aria-hidden="true"></span>
 						<span class="visually-hidden">Next</span>
 					</button>
+				</div>
+			</div>
+			<div class="container padded">
+				<div class="center col-md-7">
+					<h2 id="type"></h2>
+					<p id="head"></p>
 				</div>
 				<div class="row flex-center" id="links">
 				</div>
