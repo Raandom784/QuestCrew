@@ -74,9 +74,10 @@ p, h1, h2, h3, h4, h5{
 }
 
 .carousel-item img {
-	height: 40vh;
-	width: 40vw;
-	object-fit: contain;
+	height: calc(100vh - 90px);
+	max-height: 100vh;
+	width: 100vw;
+	object-fit: cover;
 	object-position: center;
 }
 
@@ -191,4 +192,27 @@ img{
 	position: absolute;
 	top: 70px;
 	right: -10px;
+}
+
+@media only screen and (max-width: 600px) and (orientation: portrait){
+	.carousel-item img{
+		object-fit: contain;
+	}
+}
+
+
+.img-cont{
+	position: relative;
+}
+
+.img-cont h2{
+	position: absolute;
+	text-align: center;
+	bottom: 3rem;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #000;
+	color: #fff;
+	padding: 10px;
+	font-weight: bold;
 }
