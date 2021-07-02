@@ -202,6 +202,10 @@ img{
 	.carousel-item img{
 		object-fit: contain;
 	}
+	.img-cont h2{
+		bottom: 1px;
+		width: 100%;
+	}
 }
 
 
