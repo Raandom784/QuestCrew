@@ -67,7 +67,7 @@ const files = {
 		than the whole component of CAT exam! Thus, make the right call about your personalized interview session. 
 		You can directly get detailed information about all the prestigious B-schools here.`,
 		"images": ["./images/cat_slide_1.jpg", "./images/cat_slide_2.jpg", "./images/cat_slide_3.jpg", 
-		"./images/cat_slide_4.jpg", "./images/cat_slide_5.jpg", "./images/cat_slide_6.png", "./images/cat_slide_7.jpg", 
+		"./images/cat_slide_4.jpg", "./images/cat_slide_5.jpg", "./images/cat_slide_6.jpg", "./images/cat_slide_7.jpg", 
 		"./images/cat_slide_8.png" ],
 		"links" : {
 			"Old IIMs": {
