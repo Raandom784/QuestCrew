@@ -45,6 +45,7 @@ p, h1, h2, h3, h4, h5{
 	width: 60px;
 	height: 60px;
 	border-radius: 50%;
+	object-fit: cover;
 }
 
 .padded{
@@ -71,6 +72,10 @@ p, h1, h2, h3, h4, h5{
 
 .text-center{
 	text-align: center;
+}
+
+.text-normal{
+	font-family: sans-serif;
 }
 
 .carousel-item img {
@@ -120,6 +125,10 @@ a.social:hover {
 .icon{
 	font-size: 1.6em;
 	margin: 5px;
+}
+
+.flex{
+	display: flex;
 }
 
 .flex-center{

@@ -146,7 +146,7 @@ const files = {
 		"head": `NMAT is a national level MBA Entrance test which grants admission in the flagship PGDM programme of 
 		NMIMS Mumbai, Hyderabad and Bangalore. Apart from NMIMS, there are several top tier b schools that accept the 
 		NMAT score i.e. XIM Bhubaneswar, Xavier School of Human Resource Management, ICFAI University, Alliance University,
-		IT Vellore and many others`,
+		VIT Vellore and many others`,
 		"images": ["./images/nmat_slide_1.jpg", "./images/nmat_slide_2.jpg"],
 		"links" : {
 			"Important Links": {
