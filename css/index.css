@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap');
+
 @font-face {
 	font-family: 'Poppins_Medium';
 	src: url('../fonts/Poppins-Medium.ttf')
@@ -38,6 +40,7 @@ p, h1, h2, h3, h4, h5{
 }
 
 .logo{
+	font-family: 'Bona Nova', serif;
 	line-height: 60px;
 }
 
